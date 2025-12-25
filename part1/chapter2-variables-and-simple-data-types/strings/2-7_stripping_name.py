@@ -3,7 +3,9 @@
 # Print the name once, so the whitespace and the name is displayed.
 # Then print the name using each of the three stripping function, lstrip(), rstrip(), and strip()
 
+#pembuatan variable orang dengan whitespace tab di awal dan newlne di akhir
 person = " \t Karin\n "
 
 print(person)
+#panggil masing-masing fungsi stripping dan print hasilnya
 print(f"{person.lstrip()}\n{person.rstrip()}\n{person.strip()}")
