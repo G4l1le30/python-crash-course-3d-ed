@@ -16,3 +16,4 @@ invitees.append('Luffy')
 
 for invitee in invitees:
     print(f"Hi {invitee.title()}, i would like to invite you to the special Joshua's Dinner tonight at the White House")
+
