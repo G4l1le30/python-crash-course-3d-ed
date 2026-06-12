@@ -15,10 +15,10 @@ Create at least 10 tests. Have at least 5 tests evaluate to True and another
 import random
 
 univ = ["brawijaya", "indonesia", "cendrawasih", "padjajaran"]
-isTrue = random.choice(univ)
-prediction = random.choice(univ)
 
-
-print(f"Is univ == {prediction}? I predict True")
-print(isTrue == prediction)
-print(f"It is {isTrue}")
+for i in range(0, 11):
+    isTrue = random.choice(univ)
+    prediction = random.choice(univ)
+    print(f"Is univ == {prediction}? I predict True")
+    print(isTrue == prediction)
+    print(f"It is {isTrue}")
